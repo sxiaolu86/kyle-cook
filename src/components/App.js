@@ -35,12 +35,12 @@ function App() {
   function handleRecipeAdd() {
     const newRecipe = {
       id: uuidv4(),
-      name: '',
+      name: 'New Recipe',
       servings: 1,
-      cookTime: '',
-      instructions: '',
+      cookTime: '3 hr. 30 min.',
+      instructions: '1. ',
       ingredients: [
-        { id: uuidv4(), name: '', amount: '' }
+        { id: uuidv4(), name: 'Ingredient 1', amount: '2 cups' }
       ]
     }
 
