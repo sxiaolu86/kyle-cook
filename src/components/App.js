@@ -37,7 +37,7 @@ function App() {
       id: uuidv4(),
       name: 'New Recipe',
       servings: 1,
-      cookTime: '3 hr. 30 min.',
+      cookTime: '1 hr. 30 min.',
       instructions: '1. ',
       ingredients: [
         { id: uuidv4(), name: 'Ingredient 1', amount: '2 cups' }
